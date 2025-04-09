@@ -8,7 +8,7 @@ def clone_dagster_repo():
     """
     # Get the current directory
     current_dir = Path(__file__).parent.parent
-    dagster_dir = current_dir / "dagster_repo"
+    dagster_dir = current_dir / "context" / "dagster"
     
     # Check if directory already exists
     if dagster_dir.exists():

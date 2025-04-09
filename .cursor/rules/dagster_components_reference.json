@@ -1,0 +1,40 @@
+{
+  "name": "dagster_components_reference",
+  "description": "References to Dagster Components library implementation and documentation",
+  "references": [
+    {
+      "type": "directory",
+      "path": "context/dagster/python_modules/libraries/dagster-components",
+      "description": "Dagster Components library implementation"
+    },
+    {
+      "type": "directory",
+      "path": "context/dagster/docs/content/components",
+      "description": "Dagster Components documentation"
+    }
+  ],
+  "triggers": {
+    "patterns": [
+      "dagster component",
+      "dagster components",
+      "dagster-components",
+      "component library",
+      "component definition",
+      "component configuration"
+    ]
+  },
+  "actions": {
+    "reference": true,
+    "suggest": true,
+    "context": {
+      "include_docs": true,
+      "include_tests": true,
+      "include_examples": true
+    }
+  },
+  "metadata": {
+    "library_name": "dagster-components",
+    "documentation_url": "https://docs.dagster.io/concepts/components/core-concepts",
+    "github_path": "dagster-io/dagster/python_modules/libraries/dagster-components"
+  }
+} 

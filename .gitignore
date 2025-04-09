@@ -14,3 +14,10 @@ __pycache__/
 venv/
 ENV/
 env/
+
+# Dagster context
+context/dagster/
+context/dagster/**
+
+# environment
+.venv/
